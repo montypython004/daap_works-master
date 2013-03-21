@@ -1,0 +1,402 @@
+*{
+  font-family: "Lato",sans-serif !important;
+  font-style: normal;
+  coor: #404041;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+
+ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  
+}
+
+li {
+  display: inline;
+}
+
+a{
+  color: #404041 !important;
+}
+
+/*-------------------------------*/
+/*             TYPE              */
+/*-------------------------------*/
+
+h1{
+  font-size: 38px;
+  font-weight: 900;
+}
+
+h2{
+  font-size: 21px;
+  font-weight: 400;
+}
+
+h3{
+  font-size: 14px;
+  font-weight: 200;
+}
+
+h4{
+  font-size: 14pt;
+  font-weight: 900;
+}
+
+p{
+  font-size: 12px;
+  font-weight: 400;
+}
+
+/*-------------------------------*/
+/*            HEADER             */
+/*-------------------------------*/
+
+.header{
+  height: 550px;
+  position: relative;
+  overflow: hidden;
+  padding-top: 100px;
+}
+
+.header *{
+  font-family: "Lato", Helvetica Neue, sans-serif !important;
+  text-transform: uppercase;
+}
+
+.header h1{
+  font-weight: 900;
+  font-size: 30pt;
+  margin-bottom: 0;
+}
+
+.header h2{
+  font-weight: 700;
+  font-size: 20pt;
+  margin: -15px 0 0;
+}
+
+.header h3{
+  font-weight: 400;
+  font-size: 12pt;
+  font-style: italic;
+  margin: 30px 0;
+}
+
+.header p{
+  font-size: 8pt;
+  margin: 0;
+}
+
+/*-------------------------------*/
+/*          LOGO MARK            */
+/*-------------------------------*/
+
+#kaleidoscope{
+  position: absolute;
+  right: 0;
+  top: -17%;
+  height: 750px;
+  width: 750px;
+}
+
+#kaleidoscope img{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/*-------------------------------*/
+/*          NAVIGATION           */
+/*-------------------------------*/
+
+#sticky{
+  position: relative;
+  background: #fff;
+  border-top: 3px solid #404041;
+}
+
+.btns{
+  position: relative;
+  padding: 25px 0 20px;
+}
+
+.btns::before{
+  content: url("../images/nav-kal.png");
+  display: block;
+  height: 35px;
+  width: 35px;
+  position: absolute;
+  top: 15px;
+  left: -75px;
+}
+
+.btns h4{
+  display: inline-block;
+  margin: 0;
+  margin-right: 30px;
+}
+
+.btns h4 a{
+  position: relative;
+}
+
+.btns h4 a.active::before{
+  content: "";
+  display: block;
+  position: absolute;
+  top: 25px;
+  left: 40%;
+  width: 0;
+  height: 0;
+  border: solid 10px;
+  border-color: transparent transparent #404041 transparent;
+}
+.btnss h4 a.active::after{
+  content: "";
+  display: block;
+  position: absolute;
+  top: 26px;
+  left: 40%;
+  width: 0;
+  height: 0;
+  border: solid 10px;
+  border-color: transparent transparent #fff transparent;
+}
+
+nav.filter{
+  padding: 15px 0;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  font-size: 11pt;
+  max-width: 68.25em;
+}
+
+nav ul.links{
+  display: inline-block;
+  width: 74.5%;
+  margin: 0;
+}
+
+nav ul.sort{
+  display: inline-block;
+  width: 25%;
+  margin: 0;
+}
+
+nav ul.links li{
+  list-style: none;
+  width: 20%;
+  float: left;
+}
+
+nav ul.sort li{
+  list-style: none;
+  float: right;
+  margin-left: 0.5em; 
+}
+
+nav ul.sort li a.active{
+  font-weight: 900;
+}
+
+.fixed{
+  position: fixed !important;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2)
+}
+
+
+
+/*-------------------------------*/
+/*         STUDENT LIST          */
+/*-------------------------------*/
+
+.students{
+  margin-bottom: 50px;
+}
+
+.students ul{
+  list-style: none;
+  width: 11.111%;
+  float: left;
+  font-size: 10px;
+  text-transform: uppercase;
+}
+
+/*-------------------------------*/
+/*          GRID VIEW            */
+/*-------------------------------*/
+
+
+.tab {
+  height: 75px;
+  width: 100px;
+  margin: 0 15px 15px 0;
+  float: left;
+  background-color: gray;
+
+}
+
+.tab2 {
+  height: 75px;
+  width: 100px;
+  margin: 0 15px 15px 0;
+  float: left;
+  background-color: gray;
+
+}
+
+.tab3 {
+  height: 75px;
+  width: 100px;
+  margin: 0 15px 15px 0;
+  float: left;
+  background-color: gray;
+
+}
+
+.project-grid ul:hover li{
+  opacity: 0.5;
+  -webkit-transition: opacity 0.3s;
+}
+
+.project-grid ul li:hover{
+  opacity: 1;
+}
+
+
+#panes1 {
+
+height: 400px;
+width: 90%;
+margin-bottom: 15px;
+background-color: grey;
+color: black;
+position: relative;
+}
+
+#panes2 {
+
+height: 400px;
+width: 90%;
+margin-bottom: 15px;
+background-color: grey;
+color: black;
+position: relative;
+}
+
+#panes3 {
+
+height: 400px;
+width: 90%;
+margin-bottom: 15px;
+background-color: grey;
+color: black;
+position: relative;
+}
+
+#panes4 {
+
+height: 400px;
+width: 90%;
+margin-bottom: 15px;
+background-color: grey;
+color: black;
+position: relative;
+}
+
+#panes1 div{
+position: absolute;
+}
+
+#panes2 div{
+position: absolute;
+}
+
+#panes3 div{
+position: absolute;
+}
+
+#panes4 div{
+position: absolute;
+}
+
+
+.panes .opened{
+  background-color: blue;
+}
+
+
+.tabs div{
+width: 231px;
+height: 163px;
+margin: 5px;
+float: left;
+}
+
+.tabs2 div{
+width: 231px;
+height: 163px;
+margin: 5px;
+float: left;
+}
+
+.tabs3 div{
+width: 231px;
+height: 163px;
+margin: 5px;
+float: left;
+}
+
+.tabs4 div{
+width: 231px;
+height: 163px;
+margin: 5px;
+float: left;
+}
+
+
+
+
+
+
+/*-------------------------------*/
+/*         BROWSE VIEW           */
+/*-------------------------------*/
+
+.project-browse ul li > div img{
+  width: 100%;
+  height: 400px;
+  background: gray;
+}
+
+.project-browse.row{
+  max-width: 100%;
+  width: 1120px;
+  position: relative;
+  left: -65px;
+
+}
+
+.project-browse h1, .project-browse h2, .project-browse h3{
+  text-transform: uppercase;
+}
+
+.project-browse h1{
+  margin: 0;
+  line-height: 0.9;
+}
+
+.project-browse h2{
+  margin: 0;
+}
+
+.project-browse h3{
+  margin: 20px 0;
+}
+
